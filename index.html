@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="utf-8">
   
 
   
@@ -26,10 +26,10 @@
   
 <link rel="stylesheet" href="/css/style.css">
 
-<meta name="generator" content="Hexo 4.2.1"></head>
+<meta name="generator" content="Hexo 4.2.1"><!-- hexo-inject:begin --><!-- hexo-inject:end --></head>
 
 <body>
-  <div id="container">
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><div id="container">
     <div id="wrap">
       <header id="header">
   <div id="banner"></div>
@@ -96,17 +96,29 @@
   <li>复数(complex)：复数由实数部分和虚数部分构成，可以用a + bi,或者complex(a,b)表示，复数的虚部以字母j或J结尾。如: 2+3j。</li>
 </ul>
   <li>字符串</li>
+  字符串是python中最常用的数据类型。用户可以使用引号来创建字符串。
+  python不支持字符类型，单字符在python也是作为一个字符串使用。
+  python不支持字符类型，单字符在python也是作为一个字符串使用。
+  python使用单引号和双引号来表示字符串是一样的。
   <li>布尔类型</li>  
+  python支持布尔类型的数据，布尔类型只有True和False两种值，但是布尔类型有一下几种运算。<br>
+  （1）and（与）运算：只有两个布尔值都为True时计算结果才为True。<br>
+  （2）or（或）运算：只要有一个布尔值为True，计算结果就是True。<br>
+  （3）not（非）运算：把True变为False，或者把False变为True。<br>
+  布尔运算在计算机中用来做条件判断，根据计算结果为True或者False，计算机可以自动执行不同的后续代码。<br>
+  在python中，布尔类型还可以与其他数据类型做and、or和not运算，这时下面的几种情况会被认为是False：
+  为0的数字，包括0、0.0；空字符串''、""；表示空值的None；空集合，包括空元组()、空序列[]、空字典{}。
+  其他的值都为True。
   <li>空值</li>
+  空值是python中的一个特殊值，用None表示。它不支持任何运算，也没有任何内置函数方法。None和任何其他
+  数据类型比较永远返回False。在python中未指定返回值的函数会自动返回None。
 </ol>
 
-
-<p><img src="/images/cs.jpg" alt="Image text"></p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/06/12/Python%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80/" data-id="ckbbxo9420000skuh5m3v78iq" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2020/06/12/Python%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80/" data-id="ckbd3b5q30000acuh53848jga" class="article-share-link">Share</a>
       
       
     </footer>
@@ -155,7 +167,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/06/12/hello-world/" data-id="ckbbxo9490001skuhbi4nczd3" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2020/06/12/hello-world/" data-id="ckbd3b5qx0001acuh0hs1be77" class="article-share-link">Share</a>
       
       
     </footer>
@@ -247,6 +259,23 @@
 
 
 
-  </div>
+  </div><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({"tex2jax":{"inlineMath":[["$","$"],["\\(","\\)"]],"skipTags":["script","noscript","style","textarea","pre","code"],"processEscapes":true},"TeX":{"equationNumbers":{"autoNumber":"AMS"}}});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js">
+</script>
+<!-- End: Injected MathJax -->
+<!-- hexo-inject:end -->
 </body>
 </html>
